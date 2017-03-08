@@ -1,0 +1,37 @@
+body {
+
+}
+
+label {
+  font-size: 1em;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70vw;
+}
+
+.title {
+  text-align: center;
+  width: 100vw;
+}
+
+nav {
+    padding-left: 1em;
+}
+
+img {
+  padding: 1em;
+}
+
+.question-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+footer {
+  margin-top: 3em;
+}
