@@ -2,6 +2,11 @@ body {
 
 }
 
+img {
+  width: 100% !important;
+  padding: 1em;
+}
+
 label {
   font-size: 1em;
 }
@@ -22,16 +27,36 @@ nav {
     padding-left: 1em;
 }
 
-img {
-  padding: 1em;
-}
-
 .question-wrapper {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
+.modal-content{
+  width: 100% !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.modal-content img {
+  width: 50% !important;
+  height: 35% !important;
+}
+
+.modal-title {
+  padding: 1em;
+}
+
+h4 {
+  margin: 0.5em 0.5em !important;
+}
 footer {
   margin-top: 3em;
+  padding: 2em;
+}
+
+a {
+  display: block;
 }

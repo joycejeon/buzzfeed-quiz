@@ -19,13 +19,14 @@
         <div class="title">
             <h2>Who's Your Ideal Developer?</h2>
         </div>
+        <p>Fill out the survey below to be reveal who your ideal developer would be!</p>
         <div class="question-wrapper">
-            <img src="http://placehold.it/350x200">
+            <img src="images/Crayons.jpg">
 
             <form action="#">
                 <h4>Which is closest to your favorite color?</h4>
                 <p>
-                    <input name="group1" type="radio" id="red" />
+                    <input name="group1" type="radio" id="red" required />
                     <label for="red">Red</label>
                 </p>
                 <p>
@@ -40,41 +41,47 @@
                     <input name="group1" type="radio" id="blue" />
                     <label for="blue">Blue</label>
                 </p>
-        <div class="question-wrapper">
-            <img src="http://placehold.it/350x200">
+                <div class="question-wrapper">
+                    <img src="images/innoutVSshakeshack.jpg">
 
-            <h4>In-N-Out or Shake Shack?</h4>
-            <p>
-                <input name="group2" type="radio" id="innout" />
-                <label for="innout">In-N-Out</label>
-            </p>
-            <p>
-                <input name="group2" type="radio" id="shakeshack" />
-                <label for="shakeshack">Shake Shack</label>
-            </p>
-            <img src="http://placehold.it/350x200">
+                    <h4>In-N-Out or Shake Shack?</h4>
+                    <p>
+                        <input name="group2" type="radio" id="innout" required/>
+                        <label for="innout">In-N-Out</label>
+                    </p>
+                    <p>
+                        <input name="group2" type="radio" id="shakeshack" />
+                        <label for="shakeshack">Shake Shack</label>
+                    </p>
+                    <img src="images/marvelVSdc.jpg">
 
-            <h4>Marvel or DC?</h4>
-            <p>
-                <input name="group3" type="radio" id="marvel" />
-                <label for="marvel">Marvel</label>
-            </p>
-            <p>
-                <input name="group3" type="radio" id="dc" />
-                <label for="dc">DC</label>
-            </p>
+                    <h4>Marvel or DC?</h4>
+                    <p>
+                        <input name="group3" type="radio" id="marvel" required/>
+                        <label for="marvel">Marvel</label>
+                    </p>
+                    <p>
+                        <input name="group3" type="radio" id="dc" />
+                        <label for="dc">DC</label>
+                    </p>
 
 
             </form>
             <!-- Modal Trigger -->
-            <button data-target="modal1" class="btn">Submit!</button>
+            <button data-target="modal1" class="btn yellow darken-4">Submit!</button>
 
             <!-- Modal Structure -->
             <div id="modal1" class="modal">
-                <div class="modal-content">
+                <div class="model-title">
                     <h4>You got Michael Roque!</h4>
-                    <p>A bunch of text</p>
                 </div>
+                <div class="modal-content">
+                    <img src="images/me.jpg" alt="">
+                    <p>Contact Michael and he'll be happy to show you how he would be your ideal developer!<br/></p>
+                    <a href="mailto:mycroquet@gmail.com">mycroquet@gmail.com<br/></a><br/>
+                    <a href="https://github.com/mycroquet">Github</a>
+                </div>
+            </div>
             </div>
         </div>
 
